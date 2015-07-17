@@ -1,0 +1,13 @@
+{
+    "name": "crehders/zf1-rest-route-chaining",
+    "minimum-stability":"dev",
+    "require": {
+        "crehders/zendframework1" : "1.12.*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/crehders/zf1.git"
+        }
+    ]
+}

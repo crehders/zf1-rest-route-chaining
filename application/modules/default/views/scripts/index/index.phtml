@@ -1,0 +1,20 @@
+<ul style="font-size: 20px">
+<?php
+
+$output = '';
+foreach ($this->examples as $example) {
+    $completeUrl = $this->baseUrl($example['url']);
+
+    $listItem = '
+    <li style="margin: 20px;">
+        <div style="display: block; height: 50px; width: 1000px;">URL: '.$completeUrl . '<br />Code: ' . $example['code'].'</div>
+        <iframe height="50" width="1000" src="'.$completeUrl.'"></iframe>
+    </li>';
+    $output .= $listItem;
+}
+
+echo $output;
+?>
+</ul>
+
+
